@@ -43,6 +43,8 @@ module WeatherAlert
     end
 
     def call_and_parse(url)
+      #TODO: Add Error Handling.
+      #TODO: Add logging.
       response = RestClient.get(url)
       Hashie::Mash.new(JSON.parse(response))
     end
