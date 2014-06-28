@@ -1,0 +1,93 @@
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "conditions": 1
+  }
+	}
+  ,	"current_observation": {
+		"image": {
+		"url":"http://icons.wxug.com/graphics/wu2/logo_130x80.png",
+		"title":"Weather Underground",
+		"link":"http://www.wunderground.com"
+		},
+		"display_location": {
+		"full":"Saint Petersburg, FL",
+		"city":"Saint Petersburg",
+		"state":"FL",
+		"state_name":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"zip":"33701",
+		"magic":"1",
+		"wmo":"99999",
+		"latitude":"27.76930046",
+		"longitude":"-82.63974762",
+		"elevation":"18.00000000"
+		},
+		"observation_location": {
+		"full":"Municipal Marina, St. Petersburg, Florida",
+		"city":"Municipal Marina, St. Petersburg",
+		"state":"Florida",
+		"country":"US",
+		"country_iso3166":"US",
+		"latitude":"27.767973",
+		"longitude":"-82.628593",
+		"elevation":"0 ft"
+		},
+		"estimated": {
+		},
+		"station_id":"KFLSTPET42",
+		"observation_time":"Last Updated on June 27, 7:16 PM CDT",
+		"observation_time_rfc822":"Fri, 27 Jun 2014 19:16:28 -0400",
+		"observation_epoch":"1403910988",
+		"local_time_rfc822":"Fri, 27 Jun 2014 19:29:02 -0400",
+		"local_epoch":"1403911742",
+		"local_tz_short":"EDT",
+		"local_tz_long":"America/New_York",
+		"local_tz_offset":"-0400",
+		"weather":"Thunderstorm",
+		"temperature_string":"79.9 F (26.6 C)",
+		"temp_f":79.9,
+		"temp_c":26.6,
+		"relative_humidity":"76%",
+		"wind_string":"Calm",
+		"wind_dir":"North",
+		"wind_degrees":-999,
+		"wind_mph":-999.0,
+		"wind_gust_mph":0,
+		"wind_kph":0,
+		"wind_gust_kph":0,
+		"pressure_mb":"1018",
+		"pressure_in":"30.08",
+		"pressure_trend":"+",
+		"dewpoint_string":"72 F (22 C)",
+		"dewpoint_f":72,
+		"dewpoint_c":22,
+		"heat_index_string":"84 F (29 C)",
+		"heat_index_f":84,
+		"heat_index_c":29,
+		"windchill_string":"NA",
+		"windchill_f":"NA",
+		"windchill_c":"NA",
+		"feelslike_string":"84 F (29 C)",
+		"feelslike_f":"84",
+		"feelslike_c":"29",
+		"visibility_mi":"9.0",
+		"visibility_km":"14.5",
+		"solarradiation":"--",
+		"UV":"0","precip_1hr_string":"-999.00 in ( 0 mm)",
+		"precip_1hr_in":"-999.00",
+		"precip_1hr_metric":" 0",
+		"precip_today_string":"-999.00 in (-25375 mm)",
+		"precip_today_in":"-999.00",
+		"precip_today_metric":"--",
+		"icon":"tstorms",
+		"icon_url":"http://icons.wxug.com/i/c/k/tstorms.gif",
+		"forecast_url":"http://www.wunderground.com/US/FL/Saint_Petersburg.html",
+		"history_url":"http://www.wunderground.com/weatherstation/WXDailyHistory.asp?ID=KFLSTPET42",
+		"ob_url":"http://www.wunderground.com/cgi-bin/findweather/getForecast?query=27.767973,-82.628593",
+		"nowcast":""
+	}
+}
