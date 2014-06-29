@@ -23,17 +23,22 @@ module WeatherAlert
         it "has the temperature" do
           expect(subject.conditions.temp_f).to eq(79.9)
         end
+        it "has the display location" do
+          expect(subject.conditions.display_location.full).to eq('Saint Petersburg, FL')
+        end
       end
     end
 
     describe "#forecast" do
-      before do
-        stub_request(:get, "http://api.wunderground.com/api/atoken/forecast/q/fl/saint_petersburg.json").
-          to_return(status: 200, body: IO.read('spec/support/forecast.json'), headers: {})
-      end
+      context "when request is successful" do
+        before do
+          stub_request(:get, "http://api.wunderground.com/api/atoken/forecast/q/fl/saint_petersburg.json").
+            to_return(status: 200, body: IO.read('spec/support/forecast.json'), headers: {})
+        end
 
-      it "returns a hashie mash of conditions" do
-        expect(subject.forecast).to be_instance_of(Hashie::Mash)
+        it "returns a hashie mash of conditions" do
+          expect(subject.forecast).to be_instance_of(Hashie::Mash)
+        end
       end
     end
   end
